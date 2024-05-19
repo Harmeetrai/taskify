@@ -1,4 +1,4 @@
-import { Heading } from "./_components/Heading";
+import { Heading } from "./_components/heading";
 const LandingPage = () => {
     return (
     <div className="min-h-full flex flex-col dark:bg-[#1F1F1F]">
