@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Task Management Web App
+
+This is a task management web application built with Next.js 13, React, Convex, and TailwindCSS. The app allows users to create, edit, and delete tasks, organize tasks by categories, and track their progress.
+
+## Table of Contents
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the App](#running-the-app)
+- [Technologies Used](#technologies-used)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Create, edit, and delete tasks
+- Organize tasks into categories
+- Track task progress
+- Responsive design
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Before you begin, ensure you have met the following requirements:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js (version 16.0 or higher)
+- npm or yarn
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone the repository:
 
-## Learn More
+   ```bash
+   git clone https://github.com/your-username/task-management-app.git
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Navigate to the project directory:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   cd task-management-app
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. Install the dependencies:
 
-## Deploy on Vercel
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   or
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   yarn install
+   ```
+
+### Running the App
+
+1. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+   or
+
+   ```bash
+   yarn dev
+   ```
+
+2. Open your browser and visit [http://localhost:3000](http://localhost:3000) to see the app in action.
+
+## Technologies Used
+
+- [Next.js 13](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Convex](https://www.convex.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a pull request.
